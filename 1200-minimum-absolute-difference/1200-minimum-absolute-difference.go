@@ -4,6 +4,7 @@ func minimumAbsDifference(arr []int) [][]int {
     }
     
     var result [][]int
+    
     min := math.MaxInt
     
     sort.Slice(arr, func(i, j int) bool {
